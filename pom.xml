@@ -49,7 +49,27 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- ABELFGDEVELOPER DEPENDENCIES -->
+      <!-- ABELFGDEVELOPER STARTERS -->
+      <dependency>
+        <groupId>es.abelfgdeveloper.architecture.starter</groupId>
+        <artifactId>service-starter</artifactId>
+        <version>${abelfgdeveloper-parent.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>es.abelfgdeveloper.architecture.starter</groupId>
+        <artifactId>service-jpa-starter</artifactId>
+        <version>${abelfgdeveloper-parent.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>es.abelfgdeveloper.architecture.starter</groupId>
+        <artifactId>service-test-starter</artifactId>
+        <version>${abelfgdeveloper-parent.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>es.abelfgdeveloper.architecture.starter</groupId>
+        <artifactId>service-jpa-test-starter</artifactId>
+        <version>${abelfgdeveloper-parent.version}</version>
+      </dependency>
 
       <!-- SPRING BOOT DEPENDENCIES -->
 
