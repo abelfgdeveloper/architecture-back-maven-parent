@@ -70,7 +70,13 @@
         <artifactId>service-jpa-test-starter</artifactId>
         <version>${abelfgdeveloper-parent.version}</version>
       </dependency>
-
+      <!-- ABELFGDEVELOPER LIBRARIES -->
+      <dependency>
+        <groupId>es.abelfgdeveloper.architecture.library</groupId>
+        <artifactId>common</artifactId>
+        <version>${abelfgdeveloper-parent.version}</version>
+      </dependency>
+      
       <!-- SPRING BOOT DEPENDENCIES -->
 
       <!-- SPRING CLOUD DEPENDENCIES -->
